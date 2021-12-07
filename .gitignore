@@ -550,6 +550,9 @@ GitHub.sublime-settings
 *.wmv
 *.webm
 
+# JC Additional 
+*.zip
+
 # JC Additional for TensorFlow
 *.npz
 *.json
