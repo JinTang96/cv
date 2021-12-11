@@ -1,0 +1,29 @@
+Cost function  = Loss function + Regularization
+Loss function: Difference between true value and predicted value
+Regularization: L1 and L2 dropout
+
+Some term to expose for loss function: Cross-entropy, binary
+Memory efficiency for class labels: categorical, sparse categorical, one-hot encoding
+
+Overfitting VS Underfitting (concept of early stop)
+
+Example of classification
+1. Multi-label classification output = Can have multiple output classes at once
+2. Multi-class classification output = Only one output class at a time
+
+Activation function 
+1. Activation function >> how the weighted sum of the input is transformed into an output from a node or nodes in a layer of the network
+2. Activation of hidden layers = {MLP:ReLU, CNN:ReLU, RNN:Sigmoid/Tanh}
+3. Activation of output layers = {Binary classifation:(one node,Sigmoid), Multiclass classification:(one node per class, Softmax), 
+Multilabel classification:(one node per class, Sigmoid)}
+
+Some useful websites: 
+1. medium.com
+2. towardsdatascience.com
+3. machinelearningmastery.com
+4. analyticsvidhya.com
+5. arxiv.org
+6. simpletransformers.ai (text classification, token classifcication, question answering, language modeling, language generation, 
+multi-modal classication, conversational AI, text representation generation)
+7. huggingface.co (computer vision - image classification, object detection, image segmentation, OCR)(natural language processing - text, speech, audio, conversation, translation, voice)
+8. tfhub.dev (TensorFlow Hub)
